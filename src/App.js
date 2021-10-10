@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
+// eslint-disable-next-line
 import * as tf from "@tensorflow/tfjs";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
@@ -49,6 +50,7 @@ const App = () => {
       drawRect(obj, ctx); 
     }
   };
+  
   const drawRect = (detections, ctx) =>{
     // Loop through each prediction
     detections.forEach(prediction => {
@@ -58,13 +60,14 @@ const App = () => {
       const text = prediction['class']; 
       setObjectLabel(text);
       // Set styling
-      const color = Math.floor(Math.random()*16777215).toString(16);
-      ctx.strokeStyle = '#' + color
+      // const color = Math.floor(Math.random()*16777215).toString(16);
+      const color = 'blue';
+      ctx.strokeStyle = color;//#' + color
       ctx.font = '18px Arial';
   
       // Draw rectangles and text
       ctx.beginPath();   
-      ctx.fillStyle = '#' + color
+      ctx.fillStyle = color;
       ctx.fillText(text, x, y);
       ctx.rect(x, y, width, height); 
       ctx.stroke();
@@ -72,6 +75,7 @@ const App = () => {
     });
   }
   console.log(objectLabel);
+  // eslint-disable-next-line
   useEffect(()=>{runCoco()},[]);
   return (
     <div className="App">
