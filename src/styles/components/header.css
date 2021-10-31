@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121f3d;
+  color: white;
+  align-items: center;
+}
+
+.Header .Header-logo {
+  margin: 10px 15px;
+
+}
+
+.Header .Header-nav ul{
+  display: flex;
+  list-style: none;
+}
+.Header .Header-nav li{
+  margin-right: 15px;
+}
+.Header-link{
+  color: white;
+  text-decoration: none;
+}
+
+
+.Header .social-media i{
+  margin-right: 15px;
+}
