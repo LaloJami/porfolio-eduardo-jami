@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121f3d;
+  color: white;
+  align-items: center;
+}
+
+.Header .Header-logo {
+  margin: 10px 25px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.Header .Header-nav ul{
+  display: flex;
+  list-style: none;
+}
+.Header .Header-nav li{
+  margin-right: 15px;
+  font-size: 20px;
+}
+.Header-link{
+  color: white;
+  text-decoration: none;
+}
+
+
+.Header .social-media i{
+  margin-right: 25px;
+  color: white;
+  font-size: 25px;
+}
