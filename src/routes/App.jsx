@@ -1,10 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-// import { Home, Project, AboutMe, NotFound } from '../containers';
-import { Home } from '../containers/Home'
-import { Project } from '../containers/Project'
-import { AboutMe } from '../containers/AboutMe'
-import { NotFound } from '../containers/NotFound'
+import { Home, Project, AboutMe, NotFound } from '../containers';
 
 const App = () => {
   return (
