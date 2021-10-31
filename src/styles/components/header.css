@@ -7,8 +7,8 @@
 }
 
 .Header .Header-logo {
-  margin: 10px 15px;
-
+  margin: 10px 25px;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .Header .Header-nav ul{
@@ -17,6 +17,7 @@
 }
 .Header .Header-nav li{
   margin-right: 15px;
+  font-size: 20px;
 }
 .Header-link{
   color: white;
@@ -25,7 +26,7 @@
 
 
 .Header .social-media i{
-  margin-right: 15px;
+  margin-right: 25px;
   color: white;
   font-size: 25px;
 }
