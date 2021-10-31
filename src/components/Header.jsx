@@ -33,9 +33,15 @@ const Header = () => {
         </ul>
       </nav>
       <div className="social-media">
-        <i>ln</i>
-        <i>github</i>
-        <i>twitter</i>
+        <a target="_blank" href="https://github.com/LaloJami">
+        <i className="fab fa-github-square" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/bryan-eduardo-jami-jami">
+        <i className="fab fa-linkedin" />
+        </a>
+        <a target="_blank" href="https://twitter.com/eduardo_jami">
+        <i className="fab fa-twitter-square" />
+        </a>
       </div>
     </header>
   );
