@@ -1,0 +1,46 @@
+.About{
+  background: linear-gradient(to bottom, #121f3d 0%, #1a5dc9 100%);
+  padding-top: 15px;
+  height: 100%;
+  position: fixed;
+}
+.About-container {
+  width: 80%;
+  height: 75%;
+  display: flex;
+  background-color: rgba(26, 93, 201, 0.3);
+  border-radius: 10px;
+  padding: 25px 35px;
+  margin: 0 auto;
+}
+.About-container .About-info{
+  color: white;
+  width: 70%;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+.About-container .About-info h3{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.About-container .About-info i{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.About-container .About-info p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.About-picture {
+  margin: auto auto;
+}
+.About-container .About-info li{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.About-picture img {
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+}
