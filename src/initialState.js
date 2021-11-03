@@ -8,14 +8,14 @@ export default {
     'projects': [
       {
         'id': 1,
-        'name': 'Portafolio Eduardo Jami',
-        'alt': 'portafolio Eduardo Jami imagen',
+        'name': 'Portafolio Bryan Jami',
+        'alt': 'portafolio Bryan Jami imagen',
         'skills': ['React', 'Webpack', 'HTML', 'CSS'],
         'link': 'https://google.com'
       },
       {
         'id': 2,
-        'name': 'Tienda en linea',
+        'name': 'Tienda en linea honguito',
         'alt': 'Imagen de tienda en linea',
         'skills': ['React', 'Webpack', 'HTML', 'CSS'],
         'link': 'https://google.com'

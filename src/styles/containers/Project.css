@@ -1,6 +1,7 @@
 .Project{
   background: linear-gradient(to bottom, #121f3d 0%, #1a5dc9 100%);
   height: 100%;
+  width: 100%;
   position: fixed;
 }
 .Project-container{

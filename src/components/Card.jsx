@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/components/Card.css"
 import imageTest from '../assets/images/4884785.jpg'
 
-const Card = () => {
+const Card = ({ project }) => {
   return (
     <div className="Card">
       <div className="barra-item">
@@ -11,10 +11,12 @@ const Card = () => {
         <div className="circulo-item circulo-verde"></div>
       </div>
       <div className="Card-container">
-        <h3>Proyect Name</h3>
-        <ul>
-          <li>hola</li>
-        </ul>
+        <div className="Card-info">
+          <h3>{project.name}</h3>
+          <ul>
+            <li>hola</li>
+          </ul>
+        </div>
         <img className="card-image" src={imageTest} alt="" />
       </div>
     </div>
