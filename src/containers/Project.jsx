@@ -7,6 +7,9 @@ const Project = () => {
     <div className="Project">
       <div className="Project-container">
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

@@ -5,6 +5,7 @@
 	display: flex;
 	flex-wrap: wrap;
   width: 300px;
+  margin: 10px 60px;
 }
 .barra-item {
 	width: 100%;

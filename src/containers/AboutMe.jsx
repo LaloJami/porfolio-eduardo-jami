@@ -9,13 +9,13 @@ const AboutMe = () => {
     <div className="About">
       <div className="About-container">
         <div className="About-info">
-          <h3>Sobre mi <i class="fas fa-address-card" /></h3>
+          <h3>Sobre mi <i className="fas fa-address-card" /></h3>
           <p>{data.aboutFull}</p>
           <p>{data.aboutpr2}</p>
-          <h3>Mis habilidades <i class="fas fa-laptop-code" /></h3>
+          <h3>Mis habilidades <i className="fas fa-laptop-code" /></h3>
           <ul>
-            {data.skills.map(skill => (
-              <li>{skill}</li>
+            {data.skills.map((skill,i) => (
+              <li key={i}>{skill}</li>
             ))}
           </ul>
         </div>

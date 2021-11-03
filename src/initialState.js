@@ -12,7 +12,14 @@ export default {
         'alt': 'portafolio Eduardo Jami imagen',
         'skills': ['React', 'Webpack', 'HTML', 'CSS'],
         'link': 'https://google.com'
-      }
+      },
+      {
+        'id': 2,
+        'name': 'Tienda en linea',
+        'alt': 'Imagen de tienda en linea',
+        'skills': ['React', 'Webpack', 'HTML', 'CSS'],
+        'link': 'https://google.com'
+      },
     ],
     'contact': {
       'email': 'eduardo-jami@hotmail.com',
