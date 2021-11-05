@@ -3,7 +3,7 @@ export default {
     'name': 'Bryan Eduardo Jami Jami',
     'aboutShort': 'Frontend developer, apacionado por la ciencia y tecnología.',
     'aboutFull': 'Hola, mi nombre es Bryan Jami y estudio ingenería en Tecnologías de la Información en la Universidad Yachay Tech. Tengo experiencia en Multiplatform Software, desarrollo web frontend, machine learning e Internet of Things.',
-    'aboutpr2': 'Soy una persona autodidacta y me encanta aprender sobre nuevas tecnologías y/o herramientas más populares en el desarrollo de software. Soy una persona curiosa, analítica y me encanta los retos. Me gusta trabajr en equipo y estoy abierto a aprender de los demás.',
+    'aboutpr2': 'Soy una persona autodidacta y me encanta aprender sobre nuevas tecnologías y/o herramientas más populares en el desarrollo de software. Soy una persona curiosa, analítica y me encanta los retos. Me gusta trabajar en equipo y estoy abierto a aprender de los demás.',
     'skills': ['Git/GitHub', 'HTML5', 'CSS3', 'JavaScript', 'Python', 'MySQL', 'PostgreSQL', 'Machine Learning'],
     'projects': [
       {
